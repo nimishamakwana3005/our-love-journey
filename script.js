@@ -27,3 +27,8 @@ digitalGif.addEventListener("click", () => {
 function nextPage(url) {
   window.location.href = url;
 }
+// Popup on Gemini photo click
+const geminiImg = document.getElementById("gemini-img");
+geminiImg.addEventListener("click", () => {
+  alert("Distance didn’t reduce anything. It only made us stronger.");
+});
