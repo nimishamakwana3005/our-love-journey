@@ -17,3 +17,13 @@ const enterBtn = document.getElementById("enter-btn");
 enterBtn.addEventListener("click", () => {
   window.location.href = "page1.html";
 });
+// Popup on GIF click
+const digitalGif = document.getElementById("digital-gif");
+digitalGif.addEventListener("click", () => {
+  alert("Even through pixels, I felt safe with you.");
+});
+
+// Function to go to next page
+function nextPage(url) {
+  window.location.href = url;
+}
