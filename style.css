@@ -38,3 +38,30 @@ body, html {
 #enter-btn:hover {
   transform: scale(1.1);
   }
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  background: #d9b3ff; /* Soft lavender glow */
+  padding: 20px;
+}
+
+.page img {
+  width: 300px;
+  margin: 20px 0;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.page button {
+  padding: 12px 25px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  background: #b084fc;
+  cursor: pointer;
+  margin-top: 20px;
+}
